@@ -1,19 +1,20 @@
 #include <stdio.h>
 int main()
 {
-    int tk;
-    scanf("%d", &tk);
-    if (tk >= 100)
+    int TK;
+    scanf("%d", &TK);
+    if (TK > 1000)
     {
-        printf("Eat burger");
-    }
-    else if (tk >= 50)
-    {
-        printf("Eat ice cream");
+        printf("I will buy Punjabi\n");
+        if (TK >= 1500)
+        {
+            printf("I will buy new shoes\n");
+            printf("Alisa will buy new shoes");
+        }
     }
     else
     {
-        printf("Don't eat anything");
+        printf("Bad luck!");
     }
     return 0;
 }

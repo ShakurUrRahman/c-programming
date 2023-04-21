@@ -1,11 +1,15 @@
-// #include <stdio.h>
-// int main()
-// {
-//     int k;
-//     for (k = -3; k < -5; k++)
-//         printf("Hello ");
-//     return 0;
-// }
+#include <stdio.h>
+int main()
+{
+    int i;
+    int N;
+    scanf("%d", &N);
+    for (i = 0; i < N; i++)
+    {
+        printf("Hello\n");
+    }
+    return 0;
+}
 
 // #include <stdio.h>
 // int main()
@@ -34,13 +38,13 @@
 
 //
 
-#include <stdio.h>
-int main()
-{
-    int i = 0;
-    while (i = 0)
-    {
-        printf("Hello\n");
-    }
-    return 0;
-}
+// #include <stdio.h>
+// int main()
+// {
+//     int i = 0;
+//     while (i = 0)
+//     {
+//         printf("Hello\n");
+//     }
+//     return 0;
+// }

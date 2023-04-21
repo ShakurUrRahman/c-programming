@@ -1,12 +1,15 @@
-#include<stdio.h>
+#include <stdio.h>
 int main()
 {
-    int tom=10;
-    float dick = 4.3;
-    char harry = 'X';
+    int A;
+    long long int B;
+    float C;
+    char D;
 
-    printf("%d %0.2f %c", tom, dick, harry);
+    scanf("%d %lld %f %c", &A, &B, &C, &D);
+
+    printf("%d\n%lld\n%.2f\n%c\n", A, B, C, D);
+
     return 0;
 }
-
 // %d %f %c - these are format specifier

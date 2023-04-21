@@ -1,8 +1,11 @@
-#include<stdio.h>
+#include <stdio.h>
 int main()
 {
-    int a=3,b=20;
-    int mod = b%a;
-    printf("%d", mod);
+    int N;
+    scanf("%d", &N);
+    if (N >= 0 && N % 3 == 0 && N % 7 == 0)
+    {
+        printf("%d\n", N);
+    }
     return 0;
 }
